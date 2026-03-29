@@ -37,9 +37,10 @@
 
 ### Sesi 6: Pembersihan & Transformasi (Advanced Analysis)
 
-- **Logika Kondisional (CASE WHEN):** Membuat variabel baru atau pengkodean ulang (_recode_) data.
-- **Manajemen Missing Values:** Menggunakan `COALESCE` untuk menangani data kosong (NULL).
-- **Fungsi String & Casting:** Merapikan teks dan mengubah tipe data yang tidak sesuai.
-- **Query Terstruktur (CTE):** Menulis query menggunakan `WITH` agar alur kerja penelitian mudah dibaca dan diaudit.
+- **Recode Variabel (CASE WHEN):** Mengubah variabel mentah menjadi kategori analitis (usia, ekonomi, indikator biner).
+- **NULL Handling Sistematis:** Menggunakan `COALESCE`, `NULLIF`, dan `CASE` untuk audit dan imputasi nilai kosong.
+- **Data Cleaning Teks & Tipe:** Standarisasi dengan `TRIM`, `INITCAP`, `UPPER`, `LENGTH`, `SUBSTRING`, serta `CAST`.
+- **CTE Bertahap (WITH):** Menyusun alur `audit -> bersih -> ringkas -> ranking` agar query mudah direview.
+- **Latihan Bertingkat + Kunci Jawaban:** Mulai dari transformasi dasar sampai CTE multi-tahap dengan ranking wilayah.
 
 ---
